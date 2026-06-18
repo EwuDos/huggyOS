@@ -15,7 +15,7 @@ sudo cp -r branding/* rootfs/usr/share/backgrounds/huggylinux/ 2>/dev/null || tr
 sudo chroot rootfs /bin/bash <<'CHROOT'
 apt update
 apt install -y xfce4 xfce4-goodies lightdm calamares neofetch htop firefox
-# ... (добавь свои команды)
+
 exit
 CHROOT
 
