@@ -1,1 +1,1 @@
-# huggyLInux
+# huggyOS
